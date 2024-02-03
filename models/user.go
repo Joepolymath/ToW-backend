@@ -1,16 +1,16 @@
 package models
 
 type User struct {
-	FirstName	string
-	LastName		string
-	Tagline		string
-	Country		string
-	ZipCode		string
-	Email			string
-	Profession	string
-	Income		uint32
-	Company		string
-	Links			string
-	UserID		uint32
-	Followers	uint32
+	FirstName	string		`json:"first_name"`
+	LastName		string		`json:"last_name"`
+	Tagline		string		`json:"tagline"`
+	Country		string		`json:"country"`
+	ZipCode		string		`json:"zip_code"`
+	Email			string		`json:"email"`
+	Profession	string		`json:"profession"`
+	Income		uint32		`json:"income"`
+	Company		string		`json:"company"`
+	Links			string		`json:"links"`
+	UserID		uint32		`json:"user_id"`
+	Followers	uint32		`json:"followers"`
 }
